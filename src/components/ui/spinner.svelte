@@ -2,7 +2,7 @@
     import classNames from "classnames"
     export let size: "small" | "medium" | "large" = "medium";
 
-    const spinnerStyles: string = classNames("inline w-8 h-8 text-gray-200 animate-spin fill-white", {
+    const spinnerStyles: string = classNames("inline text-gray-200 animate-spin fill-white", {
         "w-4 h-4": size === "small",
         "w-6 h-6": size === "medium",
         "w-8 h-8": size === "large"
